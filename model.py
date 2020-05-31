@@ -30,4 +30,4 @@ regressor_OLS = sm.OLS( y_train ,X_opt).fit()
 pV = regressor_OLS.pvalues
 print(pV)
 # All p values are less than 0.05 hence the team of independent variables for backward elimination
-# method will as same as ALL IN method therefore resulting in same predicted values for target 
+# method will be same as 'ALL IN' method therefore resulting in same predicted values for target 
